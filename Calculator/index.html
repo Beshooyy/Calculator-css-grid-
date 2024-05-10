@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <input id="on_screen" readonly>
+        <button type="button" onclick="clearScreen()" class="grid-item operator">C</button>
+        <button type="button" onclick="addToScreen('+')" class="grid-item operator">+</button>
+        <button type="button" onclick="addToScreen('-')" class="grid-item operator">-</button>
+        <button type="button" onclick="addToScreen('*')" class="grid-item operator">*</button>
+        <button type="button" onclick="addToScreen('1')" class="grid-item" >1</button>
+        <button type="button" onclick="addToScreen('2')" class="grid-item">2</button>
+        <button type="button" onclick="addToScreen('3')" class="grid-item">3</button>
+        <button type="button" onclick="addToScreen('/')" class="grid-item operator">/</button>
+        <button type="button" onclick="addToScreen('4')" class="grid-item">4</button>
+        <button type="button" onclick="addToScreen('5')" class="grid-item">5</button>
+        <button type="button" onclick="addToScreen('6')" class="grid-item">6</button>
+        <button type="button" onclick="addToScreen('**')" class="grid-item operator">^</button>
+        <button type="button" onclick="addToScreen('7')" class="grid-item">7</button>
+        <button type="button" onclick="addToScreen('8')" class="grid-item">8</button>
+        <button type="button" onclick="addToScreen('9')" class="grid-item">9</button>
+        <button type="button" onclick="addToScreen('%')" class="grid-item operator">%</button>
+        <button type="button" onclick="addToScreen('0')" class="grid-item">0</button>
+        <button type="button" onclick="addToScreen('.')" class="grid-item">.</button>
+        <button type="button" onclick="calculate()" class="grid-item equal">=</button>
+
+        
+
+
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
